@@ -1,6 +1,7 @@
 import Navbar from './components/layout/Navbar.jsx'
 import Hero from './components/sections/Hero.jsx'
 import About from './components/sections/About.jsx'
+import Projects from './components/sections/Projects.jsx'
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Hero />
 
       <About />
+
+      <Projects />
 
       {/* Temporary sections */}
       <section id="about" className="min-h-screen" />
